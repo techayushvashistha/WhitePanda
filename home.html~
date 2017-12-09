@@ -72,17 +72,14 @@
         {
             .text
             {                
-                font-size:100px;
+                font-size:120px;
             }
         }
 
 
 
   
-        .text{
-          color: black;
-    text-shadow: -1px 0 blue, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: Lucida Console, Courier, monospace;
+        .test{
         	font-family: fantasy;
         }
   .foot
@@ -94,6 +91,10 @@
   }
 
 
+            .text
+            {                
+                font-size:50px;
+            }
         
        
   .first_m
@@ -111,8 +112,10 @@
       color: #818181;
   }
 
-
+ .down{
+		font-size: 30px;
 		
+		background-color:#BDAE6D 
 	}
 	.back{
     background-color: #ACACAC;
@@ -161,10 +164,15 @@
   .down{
     font-size: 30px;
     
-    background: #2BBAAC;
+    background-color:#BDAE6D 
   }
 
-	
+	.text{
+		
+		color: black;
+    text-shadow: -1px 0 blue, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: Lucida Console, Courier, monospace;
+  }
 
 	.mail_logo{
 		 background-image: url("images/bp.jpg");
@@ -198,9 +206,9 @@ text-align: justify;
       <span class="glyphicons glyphicons-arrow-left"></span>
     </a>
     <ul>
-      <li class="waves-effect waves-light"><a href="#">Home</a></li>
-      <li class="waves-effect waves-light"><a href="about.html">About</a></li>
-      <li class="waves-effect waves-light"><a href="contact.html">Contact</a></li>
+      <li class="waves-effect waves-light"><a href="#!">Home</a></li>
+      <li class="waves-effect waves-light"><a href="#!">About</a></li>
+      <li class="waves-effect waves-light"><a href="#!">Contact</a></li>
       
     </ul>
   </div>
@@ -213,8 +221,9 @@ text-align: justify;
 
             <ul class="dropdown-menu down">
                 <li><a href="#">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
           </div>
       </div>
@@ -223,7 +232,7 @@ text-align: justify;
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
-			<center><p class="text"><a href="#">Shadozz</a></p></center>
+			<center><p class="text">Shadozz</p></center>
       <p><center class = "w3-justify" >Engineering is the application of scientific knowledge to solving problems in the real world. While science (physics, chemistry, biology, etc.) allows us to gain an understanding of the World and the Universe, Engineering enables this understanding to come to life through problem solving, designing and building things. The electronic device you are using to read this article was engineered from raw plastic, metal, silicon and lines of software code before being transformed into a usable device. Pretty cool!
 
 Engineers can be distinguished from other professions by their ability to solve complex problems and implement solutions in cost effective and practical ways. This ability to face a problem, work through various thoughts and abstract ideas and then translating them into reality is what is so exciting about engineering.</center></p>
@@ -242,8 +251,9 @@ Engineers can be distinguished from other professions by their ability to solve 
 	<div class="row">
 		<div class="col-xs-12">
 		<b class="what"><img src="images/tt.jpeg" height="100" width="100" class="img-circle">Engineering?</b>
-			<p><center class = "w3-justify" >Engineering or technology is all about using the power of science to make life better for people, to reduce cost, to improve comfort, to improve productivity, etc.
-Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p>
+			<p><center class = "w3-justify" >Engineering is the application of scientific knowledge to solving problems in the real world. While science (physics, chemistry, biology, etc.) allows us to gain an understanding of the World and the Universe, Engineering enables this understanding to come to life through problem solving, designing and building things. The electronic device you are using to read this article was engineered from raw plastic, metal, silicon and lines of software code before being transformed into a usable device. Pretty cool!
+
+Engineers can be distinguished from other professions by their ability to solve complex problems and implement solutions in cost effective and practical ways. This ability to face a problem, work through various thoughts and abstract ideas and then translating them into reality is what is so exciting about engineering.</center></p>
 		</div>
 	</div>
 </div>
@@ -256,7 +266,7 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
 </div>
 <div class="container-fluid first_m">
 	<div class="row">
-		<div class="col-sm-4 col-xs-12">
+		<div class="col-xs-4 col-xs-12">
 			<div class = "card blue-grey lighten-4">
                <div class = "card-image waves-effect waves-block waves-light">
                   <img class = "activator" src = "images/civile.jpg" data-toggle="tooltip" data-html="true" title="Click me!" height="200" width="200">                
@@ -269,12 +279,14 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Civil 
-                     <i class = "material-icons right">close</i></span>
-                  <p>At its heart, engineering is about using science to find creative, practical solutions. It is a noble profession.</p><b style="float: right;"> Queen Elizabeth II</b>
+                     <i class = "close right">close</i></span>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
-		<div class="col-sm-4 col-xs-12">
+		<div class="col-xs-4 col-xs-12">
 			<div class = "card blue-grey lighten-4">
                <div class = "card-image waves-effect waves-block waves-light">
                   <img class = "activator" src = "images/computer.jpeg" data-toggle="tooltip" data-html="true" title="Click me!" height="200" width="200">                
@@ -287,12 +299,14 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Computer science
-                     <i class = "material-icons right">close</i></span>
-                  <p>“The computer only gives back ourselves. It is a faithful mirror that reflects the human traits that are brought to it.”</p><br><b style="float: right;">William Barrette</b>
+                     <i class = "close right">close</i></span>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
-		<div class="col-sm-4 col-xs-12">
+		<div class="col-xs-4 col-xs-12">
 			<div class = "card blue-grey lighten-4">
                <div class = "card-image waves-effect waves-block waves-light">
                   <img class = "activator" src = "images/mechanical.jpeg" data-toggle="tooltip" data-html="true" title="Click me!" height="200" width="200">                
@@ -306,7 +320,9 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Mechanical
                      <i class = "material-icons right">close</i></span>
-                  <p>The reactions of the human heart are not mechanical and predictable but infinitely subtle and delicate.</p><b style="float: right;"> Daisaku Ikeda</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
@@ -327,7 +343,9 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Automobile
                      <i class = "material-icons right">close</i></span>
-                  <p>A good scientist is a person with original ideas. A good engineer is a person who makes a design that works with as few original ideas as possible. There are no prima donnas in engineering.</p><b style="float: right;"> Freeman Dyson</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
@@ -345,7 +363,9 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Electrical
                      <i class = "material-icons right">close</i></span>
-                  <p>It is strange that only extraordinary men make the discoveries, which later appear so easy and simple.</p><b style="float: right;">Georg C. Lichtenberg</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
@@ -361,9 +381,11 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                </div>
                
                <div class = "card-reveal">
-                  <span class = "card-title grey-text text-darken-4">Aerospace
+                  <span class = "card-title grey-text text-darken-4"Aerospace
                      <i class = "material-icons right">close</i></span>
-                  <p>There's nothing I believe in more strongly than getting young people interested in science and engineering, for a better tomorrow, for all humankind.</p> <b style="float: right;"> Bill Nye</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 		</div>
@@ -385,7 +407,9 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Biomedical
                      <i class = "material-icons right">close</i></span>
-                  <p>Engineering stimulates the mind. Kids get bored easily. They have got to get out and get their hands dirty: make things, dismantle things, fix things. When the schools can offer that, you'll have an engineer for life.</p><b style="float: right;"> Bruce Dickinson</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
 	</div>
@@ -403,7 +427,9 @@ Read more at: <br><b style="float: right;">N. R. Narayana Murthy</b></center></p
                <div class = "card-reveal">
                   <span class = "card-title grey-text text-darken-4">Programming
                      <i class = "material-icons right">close</i></span>
-                  <p>Successful engineering is all about understanding how things break or fail.</p><b style="float: right;"> Henry Petroski</b>
+                  <p>HTML5 is the next major revision of the HTML standard superseding
+                     HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                     structuring and presenting content on the World Wide Web.</p>
                </div>
                </div>
   </div>
